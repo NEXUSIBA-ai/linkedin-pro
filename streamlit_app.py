@@ -17,7 +17,7 @@ st.title("🚀 Générateur de Posts LinkedIn qui Cartonnent (Freelances & Devs)
 import stripe
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
-price_id = "price_1..."  # ← tu mettras ton vrai Price ID après création (2 clics)
+price_id = "price_1SW3JuRb7bvRVNY0fyLO1q9z"  # ← tu mettras ton vrai Price ID après création (2 clics)
 
 if "paid" not in st.session_state:
     st.session_state.paid = False
